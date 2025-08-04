@@ -1,0 +1,9 @@
+{
+	"name": "DemoADFAnujGit",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "112c3a06-6a96-4d45-afb5-73ba9207f278",
+		"tenantId": "b5c06678-cc9a-4519-8aa9-fb2f637166de"
+	}
+}
