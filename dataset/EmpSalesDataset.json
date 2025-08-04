@@ -1,0 +1,19 @@
+{
+	"name": "EmpSalesDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorageLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "employee_sales_data.csv",
+				"folderPath": "input",
+				"container": "adfdemo"
+			}
+		}
+	}
+}
