@@ -1,0 +1,17 @@
+{
+	"name": "KV_LS_AzureBlobStorage",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "KV Linked Service AzureKeyVault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "Sec-stroageDemoAnuj-ConnString"
+			}
+		}
+	}
+}
